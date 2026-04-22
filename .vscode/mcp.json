@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "memory-system": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "memory_mcp_server.py"
+      ],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+keys.yaml
+keys.yml
+secrets.yaml
+secrets.yml
+
+# MCP local state and generated memory snapshots
+.memory-system/
+memory_mcp_snapshot.json
+memory_snapshot*.json
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# PyInstaller artifacts
+*.manifest
+*.spec.bak
+
+# Logs and OS/editor noise
+*.log
+.DS_Store
+Thumbs.db
+
+# VS Code workspace files: keep project-shared MCP examples, ignore local settings
+.vscode/*
+!.vscode/mcp.json
+!.vscode/memory-system.instructions.md
+
+# Nested VS Code extension project
+memory-system-dev/node_modules/
+memory-system-dev/dist/
+memory-system-dev/bin/
+memory-system-dev/*.vsix
+memory-system-dev/.vscode/*
+!memory-system-dev/.vscode/mcp.json
+!memory-system-dev/.vscode/memory-system.instructions.md
